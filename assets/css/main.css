@@ -91,6 +91,10 @@ header div div a {
     font-size: 30px;
 }
 
+header div p {
+    font-size: 30px;
+}
+
 header div div p {
     margin: 0 10px;
     font-size: 30px;
@@ -257,6 +261,10 @@ footer p {
     height: 10px;
 }
 
+.vertical-spacing-30px {
+    height: 30px;
+}
+
 .vertical-spacing-40px {
     height: 40px;
 }
@@ -269,6 +277,22 @@ footer p {
 .horizontal-spacing-100px {
     display: inline-block;
     width: 100px;
+}
+
+.horizontal-spacing-150px {
+    display: inline-block;
+    width: 150px;
+}
+
+.horizontal-spacing-200px {
+    display: inline-block;
+    width: 200px;
+}
+
+nav div {
+    /*padding-top: 15px;*/
+    padding-top: 15px;
+    margin: auto auto;
 }
 
 .div-middle {
@@ -328,6 +352,10 @@ footer p {
     color: black;
 }
 
+.black {
+    color: black;
+}
+
 .black-button {
     padding: 15px;
     background-color: #000;
@@ -338,6 +366,10 @@ footer p {
 
 .black-button:hover {
     background-color: #fff;
+}
+
+#contact a {
+    color: black;
 }
 
 /*
