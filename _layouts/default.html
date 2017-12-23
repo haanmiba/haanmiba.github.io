@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<meta name="apple-mobile-web-app-capable" content="yes">
+			<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
 			<title>{{ page.title }}</title>
+
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+			<link href='https://fonts.googleapis.com/css?family=Roboto:100, 700' rel='stylesheet' type='text/css'>
 			{% include icon.html %}
 		</head>
 		<body>
+
+			{% include nav.html %}
+
+			
 
 			<div class="header">{% include header.html %}</div> 
 
