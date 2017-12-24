@@ -1,8 +1,0 @@
-name: Hans Bas | Software Engineer and Graphic Designer
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-
-collections:
-  codings:
-    output: true
-    permalink: /codings/:path/
