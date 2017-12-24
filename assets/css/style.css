@@ -30,6 +30,10 @@
 		padding: 0 15px 5px;
 	}
 
+	.navbar-brand img {
+		max-height: 55px;
+	}
+
   	.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
   		color: #fff;
   		background-color: #222;
@@ -127,6 +131,9 @@
 		max-width: 120px;
 		max-height: 120px;
 		margin: 1% auto;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		user-select: none;
 	}
 
 	.icon-sm {
