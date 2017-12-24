@@ -11,296 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,700" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<style>
-
-	.w100 {
-		font-weight: 100;
-	}
-
-	.w200 {
-		font-weight: 200;
-	}
-
-	.w300 {
-		font-weight: 300;
-	}
-
-	.w700 {
-		font-weight: 700;
-	}
-	
-	.navbar {
-		margin-bottom: 0;
-		border-radius: 0;
-		background-color: #333;
-		color: #fff;
-		padding: 1% 0;
-		font-size: 1.2em;
-		border: 0;
-	}
-
-	.navbar-brand {
-		float: left;
-		max-height: 55px;
-		padding: 0 15px 5px;
-	}
-
-  	.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-  		color: #fff;
-  		background-color: #222;
-  	}
-
-	.navbar-inverse .navbar-nav li a {
-		color: #d5d5d5;
-	}
-
-	.carousel-caption {
-		top: 50%;
-		font-weight: 100;
-		transform: translateY(-35%);
-	}
-
-  	.carousel-caption h1 {
-  		font-family: 'Roboto', 'Sans-Serif';
-  		font-size: 6.5em;
-  		text-transform: uppercase;
-  	}
-
-  	.carousel-caption p {
-  		letter-spacing: .1em;
-  		font-size: 2em;
-  	}
-
-  	.container {
-  		margin: 4% auto;
-    	font-family: "Montserrat", "Sans-Serif";
-    	font-weight: 300;
-    	color: #000;
-  	}
-
-  	.container p, .container a, .container ul li {
-  		font-size: 1.4em;
-  	}
-
-
-  	.md-narrow-container {
-  		margin: 0 20%;
-  	}
-
-	h2 {
-		color: #000;
-		font-size: 3em;
-  		font-family: "Montserrat", "Sans-Serif";
-  		font-weight: 100;
-  		text-transform: uppercase;
-	}
-
-	h2 span span {
-		font-weight: 700;
-	}
-
-	h3 {
-		font-size: 2em;
-	}
-
-	h4 {
-		font-size: 1.5em;
-	}
-
-	.row {
-		margin-top: 20px;
-	}
-
-	#myCarousel {
-		margin-top: 50px;
-	}
-
-/******HEADER LINES******/
-	.heading-1{
-		position:relative;
-		text-align: center
-	}
-	.heading-1:before {
-		content: "";
-		display: block;
-		border-top: solid 2px #bebebe;
-		width: 100%;
-		height: 2px;
-		position: absolute;
-		top: 50%;
-		z-index: 0;
-	}
-	.heading-1 span {
-		background: #fff;
-		padding: 0 10px;
-		position: relative;
-		z-index: 1;
-	}
-/******HEADER LINES******/
-
-	.icon {
-		max-width: 120px;
-		max-height: 120px;
-		margin: 1% auto;
-	}
-
-	.icon-sm {
-		max-width: 110px;
-		max-height: 110px;
-		margin: 1% auto;
-	}
-
-	.form-group {
-		height: 15px;
-	}
-
-	.btn-default {
-		font-size: 18px;
-		color: #fff;
-		padding: 12px 22px;
-		background: #000;
-		border: 2px solid #000;
-		border-radius: 0;
-	}
-
-	.btn-default:hover {
-		border-color: #000;
-		background: #fff;
-	}
-
-	.space-margin {
-		margin-bottom: 20px;
-	}
-
-	.dark-gray-background {
-		background: #333;
-	}
-
-	.fa {
-		padding: 0 10px;
-		font-size: 20px;
-		color: #d5d5d5;
-	}
-
-	.fa:hover {
-		color: #fff;
-		text-decoration: none;
-	}
-
-	@media (max-width: 900px) {
-
-		.carousel-caption {
-			top: 50%;
-			font-weight: 100;
-			transform: translateY(-45%);
-		}
-
-	  	.carousel-caption h1 {
-	  		font-family: 'Roboto', 'Sans-Serif';
-	  		font-size: 5em;
-	  		text-transform: uppercase;
-	  	}
-
-	  	.carousel-caption p {
-	  		letter-spacing: .1em;
-	  		font-size: 1.5em;
-	  	}
-
-
-	}
-
-	.white {
-		color: #fff;
-	}
-
-  	@media (max-width: 600px) {
-
-		.carousel-caption {
-			top: 50%;
-			font-weight: 100;
-			transform: translateY(-75%);
-		}
-
-	  	.carousel-caption h1 {
-	  		font-family: 'Roboto', 'Sans-Serif';
-	  		font-size: 4em;
-	  		text-transform: uppercase;
-	  	}
-
-	  	.carousel-caption p {
-	  		letter-spacing: .05em;
-	  		font-size: 1.25em;
-	  	}
-
-
-  	}
-
-  	@media (max-width: 420px) {
-
-  		.container {
-  			margin: 4% 2%;
-  		}
-
-		.carousel-caption {
-			top: 50%;
-			font-weight: 100;
-			transform: translateY(-60%);
-		}
-
-	  	.carousel-caption h1 {
-	  		font-family: 'Roboto', 'Sans-Serif';
-	  		font-size: 2.5em;
-	  		text-transform: uppercase;
-	  	}
-
-	  	.carousel-caption p {
-	  		letter-spacing: .05em;
-	  		font-size: 1em;
-	  	}
-
-	  	h2 {
-	  		font-size: 2em;
-	  	}
-
-	  	.fa {
-	  		font-size: 30px;
-	  	}
-
-	  	.md-narrow-container {
-	  		margin: 0 0;
-	  	}
-
-	.row {
-		margin-top: 0px;
-	}
-
-  	}
-
-  	@media (max-width: 360px) {
-
-		.carousel-caption {
-			top: 50%;
-			font-weight: 100;
-			transform: translateY(-110%);
-		}
-
-	  	.carousel-caption h1 {
-	  		font-size: 3em;
-	  	}
-
-		.carousel-caption p {
-	  		letter-spacing: .08em;
-	  		font-size: .9em;
-	  	}
-
-  		#downloadResume {
-  			font-size: 1em;
-  		}
-
-  	}
-
-
-	</style>
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="70">
 
@@ -428,27 +139,27 @@
 		<div class="form-group"></div>
 		<h4 class="text-uppercase"><strong>Software</strong></h4>
 		<div class="row">
-			<div class="col-md-2">
+			<div class="col-md-2 col-sm-4">
 				<img src="img/Eclipse icon.jpeg" alt="" class="icon">
 				<p><strong>Eclipse</strong></p>
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-2 col-sm-4">
 				<img src="img/Sublime Text 2 icon.png" alt="" class="icon">
 				<p><strong>Sublime Text 2</strong></p>
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-2 col-sm-4">
 				<img src="img/CLion icon.png" alt="" class="icon">
 				<p><strong>Clion</strong></p>
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-2 col-sm-4">
 				<img src="img/Adobe Photoshop icon.png" alt="" class="icon-sm">
 				<p><strong>Adobe Photoshop</strong></p>
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-2 col-sm-4">
 				<img src="img/Adobe Premiere Pro icon.png" alt="" class="icon-sm">
 				<p><strong>Adobe Premiere Pro</strong></p>
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-2 col-sm-4">
 				<img src="img/Google Chrome icon.png" alt="" class="icon">
 				<p><strong>Google Chrome</strong></p>
 			</div>
