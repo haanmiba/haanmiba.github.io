@@ -28,7 +28,7 @@
 	.w700 {
 		font-weight: 700;
 	}
-
+	
 	.navbar {
 		margin-bottom: 0;
 		border-radius: 0;
@@ -47,7 +47,7 @@
 
   	.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
   		color: #fff;
-  		background-color: #333;
+  		background-color: #222;
   	}
 
 	.navbar-inverse .navbar-nav li a {
@@ -110,6 +110,11 @@
 	.row {
 		margin-top: 20px;
 	}
+
+	#myCarousel {
+		margin-top: 50px;
+	}
+
 /******HEADER LINES******/
 	.heading-1{
 		position:relative;
@@ -260,9 +265,33 @@
 	  	.fa {
 	  		font-size: 30px;
 	  	}
+
+	  	.md-narrow-container {
+	  		margin: 0 0;
+	  	}
+
+	.row {
+		margin-top: 0px;
+	}
+
   	}
 
   	@media (max-width: 360px) {
+
+		.carousel-caption {
+			top: 50%;
+			font-weight: 100;
+			transform: translateY(-110%);
+		}
+
+	  	.carousel-caption h1 {
+	  		font-size: 3em;
+	  	}
+
+		.carousel-caption p {
+	  		letter-spacing: .08em;
+	  		font-size: .9em;
+	  	}
 
   		#downloadResume {
   			font-size: 1em;
@@ -273,7 +302,7 @@
 
 	</style>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="70">
 
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
@@ -283,14 +312,14 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#" class="navbar-brand"><img src="img/hb header logo.png" alt=""></a>
+				<a href="#myCarousel" class="navbar-brand scrollTo"><img src="img/hb header logo.png" alt=""></a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right" id="myNavbarElements">
-					<li><a data- href="#about">about</a></li>
-					<li><a href="#resume">résume</a></li>
-					<li><a href="#portfolio">portfolio</a></li>
-					<li><a href="#contact">contact</a></li>
+					<li><a class="scrollTo" data-scrollTo="about" href="#about">about</a></li>
+					<li><a class="scrollTo" data-scrollTo="resume" href="#resume">résume</a></li>
+					<li><a class="scrollTo" data-scrollTo="portfolio" href="#portfolio">portfolio</a></li>
+					<li><a class="scrollTo" data-scrollTo="contact" href="#contact">contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -493,10 +522,10 @@
 		<h2 class="heading-1"><span><strong>What</strong> I've Done</span></h2>
 		<h2><strong><u>Portfolio</u></strong></h2>
 		<div class="row md-narrow-container">
-			<div class="col-md-6 space-margin">
+			<div class="col-md-6 space-margin center-block">
 			<a href="https://github.com/haanmiba" class="btn btn-default text-uppercase">Programming <br>(GitHub)</a>				
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 center-block">
 			<a href="https://www.behance.net/hansbas" class="btn btn-default text-uppercase">Graphic Design <br>(Behance)</a>
 			</div>
 
@@ -524,10 +553,10 @@
 
 	<footer class="container-fluid dark-gray-background">
 		<div class="row white text-center">
-			<div class="col-sm-4">
+			<div class="col-sm-4 space-margin">
 				<p>Copyright Hans Bas © 2017</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 space-margin">
 				<a href="mailto:mr.hans.bas@gmail.com" class="fa fa-envelope"></a>
 				<a href="https://github.com/haanmiba" class="fa fa-github"></a>
 				<a href="https://www.behance.net/hansbas" class="fa fa-behance"></a>
@@ -536,11 +565,12 @@
 				<a href="https://www.instagram.com/hans_bas/?hl=en" class="fa fa-instagram"></a>
 				<a href="https://www.pinterest.com/haanmiba/" class="fa fa-pinterest"></a>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 space-margin">
 				<p>Made with Bootstrap &amp; GitHub Pages</p>
 			</div>
 		</div>
 	</footer>
 
 </body>
+<script src="assets/js/main.js"></script>
 </html>
