@@ -30,10 +30,6 @@
 		padding: 0 15px 5px;
 	}
 
-	#navbar-logo {
-		max-height: 50px;
-	}
-
   	.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
   		color: #fff;
   		background-color: #222;
