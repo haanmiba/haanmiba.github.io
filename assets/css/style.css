@@ -261,13 +261,17 @@
 	  		margin: 0 0;
 	  	}
 
-	.row {
-		margin-top: 0px;
-	}
+		.row {
+			margin-top: 0px;
+		}
 
 	  		footer {
   			padding-top: 20px;
   		}
+
+	  	.container p, .container a, .container ul li {
+	  		font-size: 1em;
+	  	}
 
 
   	}
@@ -291,6 +295,10 @@
 
   		#downloadResume {
   			font-size: 1em;
+  		}
+
+  		.fa {
+  			font-size: 25px;
   		}
 
 
