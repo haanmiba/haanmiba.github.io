@@ -30,7 +30,7 @@
 		padding: 0 15px 5px;
 	}
 
-	.navbar-brand img {
+	#navbar-logo {
 		max-height: 50px;
 	}
 
