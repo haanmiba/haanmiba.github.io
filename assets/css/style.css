@@ -208,6 +208,10 @@
 		color: #fff;
 	}
 
+	.display-only-small {
+		display: none;
+	}
+
   	@media (max-width: 600px) {
 
 		.carousel-caption {
@@ -249,8 +253,7 @@
 	  	}
 
 	  	.carousel-caption p {
-	  		letter-spacing: .05em;
-	  		font-size: 1em;
+	  		display: none;
 	  	}
 
 	  	h2 {
@@ -281,6 +284,11 @@
   			max-width: 200px;
   		}
 
+  		.display-only-small {
+  			font-weight: 700;
+  			display: block;
+  		}
+
 
   	}
 
@@ -289,7 +297,7 @@
 		.carousel-caption {
 			top: 50%;
 			font-weight: 100;
-			transform: translateY(-110%);
+			transform: translateY(-100%);
 		}
 
 	  	.carousel-caption h1 {
