@@ -175,6 +175,10 @@
 		text-decoration: none;
 	}
 
+	.med {
+		max-width: 330px;
+	}
+
 	@media (max-width: 900px) {
 
 		.carousel-caption {
@@ -272,6 +276,10 @@
 	  	.container p, .container a, .container ul li {
 	  		font-size: 1em;
 	  	}
+
+  		.med {
+  			max-width: 200px;
+  		}
 
 
   	}
