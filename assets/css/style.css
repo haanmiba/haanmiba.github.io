@@ -289,6 +289,10 @@
   			display: block;
   		}
 
+  		#carousel-caption-p {
+  			display: none;
+  		}
+
 
   	}
 
@@ -310,6 +314,10 @@
 
   		.fa {
   			font-size: 25px;
+  		}
+
+  		#carousel-caption-p {
+  			display: none;
   		}
 
 
