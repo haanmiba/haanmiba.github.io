@@ -239,19 +239,24 @@
 		.carousel-caption {
 			top: 50%;
 			font-weight: 100;
-			transform: translateY(-60%);
+			transform: translateY(-70%);
 		}
 
 	  	.carousel-caption h1 {
 	  		font-family: 'Roboto', 'Sans-Serif';
-	  		font-size: 2.5em;
+	  		font-size: 3em;
 	  		text-transform: uppercase;
 	  	}
 
 	  	.carousel-caption p {
+			display: none;
+	  	}
+
+		/*
+	  	.carousel-caption p {
 	  		letter-spacing: .05em;
 	  		font-size: 1em;
-	  	}
+	  	}*/
 
 	  	h2 {
 	  		font-size: 2em;
@@ -292,13 +297,6 @@
 			transform: translateY(-100%);
 		}
 
-	  	.carousel-caption h1 {
-	  		font-size: 3em;
-	  	}
-
-		.carousel-caption p {
-			display: none;
-	  	}
 
   		#downloadResume {
   			font-size: 1em;
