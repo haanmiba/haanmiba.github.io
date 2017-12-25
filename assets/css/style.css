@@ -31,7 +31,7 @@
 	}
 
 	.navbar-brand img {
-		max-height: 55px;
+		max-height: 50px;
 	}
 
   	.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
