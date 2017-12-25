@@ -208,10 +208,6 @@
 		color: #fff;
 	}
 
-	.display-only-small {
-		display: none;
-	}
-
   	@media (max-width: 600px) {
 
 		.carousel-caption {
@@ -253,7 +249,8 @@
 	  	}
 
 	  	.carousel-caption p {
-	  		display: none;
+	  		letter-spacing: .05em;
+	  		font-size: 1em;
 	  	}
 
 	  	h2 {
@@ -284,15 +281,6 @@
   			max-width: 200px;
   		}
 
-  		.display-only-small {
-  			font-weight: 700;
-  			display: block;
-  		}
-
-  		#carousel-caption-p {
-  			display: none;
-  		}
-
 
   	}
 
@@ -308,16 +296,17 @@
 	  		font-size: 3em;
 	  	}
 
+		.carousel-caption p {
+	  		letter-spacing: .08em;
+	  		font-size: .9em;
+	  	}
+
   		#downloadResume {
   			font-size: 1em;
   		}
 
   		.fa {
   			font-size: 25px;
-  		}
-
-  		#carousel-caption-p {
-  			display: none;
   		}
 
 
