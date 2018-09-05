@@ -12,6 +12,7 @@
 
 	.w700 {
 		font-weight: 700;
+		text-decoration: underline;
 	}
 	
 	.navbar {
@@ -58,7 +59,7 @@
 
   	.container {
   		margin: 4% auto;
-    	font-family: "Montserrat", "Sans-Serif";
+    	font-family: "Oxygen", "Sans-Serif";
     	font-weight: 300;
     	color: #000;
   	}
