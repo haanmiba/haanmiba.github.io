@@ -203,6 +203,10 @@
 	  		padding: 0 2%;
 	  	}
 
+	  	#about [class*="col-"] {
+	  		margin-bottom: 30px;
+	  	}
+
 	}
 
 	.white {
