@@ -41,9 +41,11 @@
 	}
 
 	.carousel-caption {
+		width: 100vw;
+		left: 0%;
 		top: 50%;
-		font-weight: 100;
-		transform: translateY(-35%);
+		transform: translateY(-50%);
+		font-weight: 300;
 	}
 
   	.carousel-caption h1 {
@@ -55,6 +57,10 @@
   	.carousel-caption p {
   		letter-spacing: .1em;
   		font-size: 2em;
+  	}
+
+  	.background-opaque-black {
+		background-color: rgba(0, 0, 0, 0.5);
   	}
 
   	.container {
