@@ -143,6 +143,9 @@
 		max-width: 110px;
 		max-height: 110px;
 		margin: 1% auto;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		user-select: none;
 	}
 
 	.form-group {
