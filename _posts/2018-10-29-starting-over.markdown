@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Starting Over"
+title: "Starting (Over)"
 date: 2018-10-29 03:00:00 -4000
 categories: blog personal
 preview: "Some things you just need to start over. This website is one of those things."
