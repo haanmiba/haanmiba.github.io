@@ -1,0 +1,40 @@
+- position: 'Software Engineer Intern'
+  dates: 'May 2018 – August 2018'
+  employer: 'Innovative Systems, Inc.'
+  city: 'Pittsburgh, PA'
+  tasks:
+    - 'Built parser to pre-process data from the Dow Jones Anti-Corruption database; optimized space usage by implementing Simple API for XML. Optimization resolved an issue where company systems ran out of memory when attempting to prepare data for analysis.'
+    - 'Developed schema migration software to detect differences between databases. Now used for internal company database backups and client-side database installations.'
+    - 'Refactored company codebase from Visual Basic to C#.'
+
+- position: 'Undergraduate Teaching Assistant'
+  dates: 'August 2017 – Present'
+  employer: 'University at Buffalo Department of Computer Science & Engineering'
+  city: 'Buffalo, NY'
+  tasks:
+    - 'Courses: Introduction to Computer Science for Majors I & II'
+    - 'Conducts assignments, hosts office hours, and manages group projects for 49 students.'
+
+- position: 'Graphic Artist'
+  dates: 'August 2018 – Present'
+  employer: 'University at Buffalo Undergraduate Student Association'
+  city: 'Buffalo, NY'
+  tasks:
+    - 'Designs graphics and flyers to promote university events to over 20,000 undergraduate students.'
+
+- position: 'Head Coding Camp Student Assistant'
+  dates: 'Summer 2016 & 2017'
+  employer: 'South Huntington Union Free School District'
+  city: 'Huntington Station, NY'
+  tasks:
+    - 'Led a team of student assistants in teaching elementary school students the benefits of a future in computer science and STEM.'
+    - 'Helped 100+ young children develop scripts in JavaScript and Google Scratch to teach them the fundamentals of programming.'
+
+- position: 'Social Media Intern'
+  dates: 'August 2017 – May 2018'
+  employer: 'University at Buffalo Honors College'
+  city: 'Buffalo, NY'
+  tasks:
+    - 'Designed 70+ graphics, flyers, emails, and promotions for ~1200 Honors College students.'
+    - 'Assisted in transitioning the Honors College list-serv from Constant Contact to MailChimp.'
+    - 'Wrote a script to extract information for all high schools in Western New York from Niche.com to accelerate the promotion of University at Buffalo to prospective students.'

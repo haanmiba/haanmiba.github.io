@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+
+	{% include head.html %}
+
+	<body {% if page.permalink == "/" %}data-spy="scroll" data-target=".navbar-collapse" data-offset="70"{% endif %}>
+		{% include navbar.html %}
+		{{ content }}
+
+		{% if page.permalink == "/" %}
+			<script src="/assets/js/main.js"></script>
+			<script src="https://unpkg.com/scrollreveal"></script>
+			<script src="/assets/js/scroll-effects.js"></script>
+		{% endif %}	
+	</body>
+</html>

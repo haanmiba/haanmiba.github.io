@@ -1,0 +1,47 @@
+languages:
+  - language: 'Java'
+    img_src: 'Java icon.png'
+
+  - language: 'Python'
+    img_src: 'Python icon.png'
+
+  - language: 'C#'
+    img_src: 'C-sharp icon.png'
+
+  - language: 'JavaScript'
+    img_src: 'JavaScript icon.png'
+
+  - language: 'HTML5'
+    img_src: 'HTML5 icon.png'
+
+  - language: 'CSS3'
+    img_src: 'Css3 icon.png'
+
+softwares:
+  - software: 'Visual Studio'
+    img_src: 'Visual Studio icon.png'
+
+  - software: 'Eclipse'
+    img_src: 'Eclipse icon.jpeg'
+
+  - software: 'PyCharm'
+    img_src: 'PyCharm icon.png'
+
+  - software: 'Sublime Text 2'
+    img_src: 'Sublime Text 2 icon.png'
+
+  - software: 'SQL Server'
+    img_src: 'SQL Server icon.png'
+
+  - software: 'Google Chrome'
+    img_src: 'Google Chrome icon.png'
+    small: true
+
+  - software: 'Socrata'
+    img_src: 'Socrata icon.png'
+    small: true
+
+  - software: 'Adobe Photoshop'
+    img_src: 'Adobe Photoshop icon.png'
+    small: true
+

@@ -1,0 +1,23 @@
+<nav class="navbar navbar-inverse navbar-fixed-top reveal-bottom">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a {% if page.permalink == "/"%}href="#myCarousel"{% else %}href="/"{% endif %} class="navbar-brand scrollTo"><img id="navbar-logo" style="max-height: 50px;" src="/assets/img/hb navbar logo.png" alt=""></a>
+		</div>
+		{% if page.permalink == "/" %}
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right" id="myNavbarElements">
+				<li><a class="scrollTo" data-scrollTo="about" href="#about">about</a></li>
+				<li><a class="scrollTo" data-scrollTo="resume" href="#resume">résumé</a></li>
+				<li><a class="scrollTo" data-scrollTo="portfolio" href="#portfolio">portfolio</a></li>
+				<li><a class="scrollTo" data-scrollTo="blog" href="#blog">blog</a></li>
+				<li><a class="scrollTo" data-scrollTo="contact" href="#contact">contact</a></li>
+			</ul>
+		</div>
+		{% endif %}
+	</div>
+</nav>

@@ -1,3 +1,11 @@
+	body {
+		margin-top: 50px;
+	}
+
+	.top-margin {
+		margin-top: 50px;
+	}
+
 	.w100 {
 		font-weight: 100;
 	}
@@ -225,7 +233,7 @@
   	@media (max-width: 600px) {
 
 		.carousel-caption {
-			top: 50%;
+			top: 75%;
 			font-weight: 100;
 			transform: translateY(-75%);
 		}
@@ -255,7 +263,7 @@
   		}
 
 		.carousel-caption {
-			top: 50%;
+			top: 100%;
 			font-weight: 100;
 			transform: translateY(-70%);
 		}

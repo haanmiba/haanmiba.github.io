@@ -1,0 +1,24 @@
+school: 'University at Buffalo, State University of New York'
+dates: 'Expected Grad Date: May 2020'
+city: 'Buffalo, NY'
+majors:
+  - 'Bachelor of Science in Computer Science'
+  - 'Bachelor of Arts in Mathematics'
+gpa: '3.809/4.000'
+achievements:
+  - 'University Honors College'
+  - "Dean's List Recipient"
+  - 'Provost Scholarship Recipient'
+  - 'Member of the NYS Science, Technology, Engineering and Mathematics (STEM) Incentive Program'
+coursework:
+  - 'Data Structures'
+  - 'Algorithm Analysis & Design'
+  - 'Linear Algebra'
+  - 'Differential Equations'
+  - 'Computer Architecture'
+  - 'Statistical Inference'
+  - 'Higher Math'
+  - 'Discrete Structures'
+  - 'Digital Systems'
+  - 'STEM Communications'
+  - 'Calculus I-III'

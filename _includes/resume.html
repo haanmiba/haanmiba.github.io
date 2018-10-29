@@ -1,0 +1,81 @@
+<div id="resume" class="container text-center">
+	<h2 class="heading-1 reveal-bottom"><span><strong>What</strong> I Do</span></h2>
+	<h2 class="reveal-bottom"><strong><u>Résumé</u></strong></h2>
+	<div class="reveal-left">
+		<h3 class="text-uppercase"><strong>Education</strong></h3>
+		<div class="text-left">
+			<p>
+				<span><strong class="text-uppercase">{{ site.data.education.school }}</strong></span> | <strong>{{ site.data.education.dates }}</strong>
+				<br>
+				{{ site.data.education.city }}
+				<br>
+				<strong><em>
+				{% for major in site.data.education.majors %}
+					{{ major }}
+					<br>
+				{% endfor %}				
+				</em></strong>
+				GPA: <strong>{{ site.data.education.gpa }}</strong>
+			</p>
+			{% for achievement in site.data.education.achievements %}
+				{% if forloop.first %}<ul>{% endif %}
+					<li>{{ achievement }}</li>
+				{% if forloop.last %}</ul>{% endif %}
+			{% endfor %}
+			<p><strong>Relevant Coursework: </strong>
+			{% for course in site.data.education.coursework %}
+				{{ course }}{% if forloop.last != true %},{% endif %}
+			{% endfor %}
+			</p>
+		</div>
+	</div>
+	<h3 class="text-uppercase reveal-bottom"><strong>Skills</strong></h3>
+	<h4 class="text-uppercase reveal-bottom"><strong>Languages</strong></h4>
+	<div class="row">
+		{% for lang in site.data.skills.languages %}
+		<div class="col-md-2 col-sm-4 reveal-bottom-scale">
+			<img class="icon" src="/assets/img/{{ lang.img_src }}" alt="">
+			<p><strong>{{ lang.language }}</strong></p>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="form-group"></div>
+	<h4 class="text-uppercase reveal-bottom"><strong>Software</strong></h4>
+	<div class="row">
+		{% for software in site.data.skills.softwares limit:4 %}
+		<div class="col-md-3 col-sm-6 reveal-bottom-scale">
+			<img class="icon{% if software.small %}-sm{% endif %}" src="assets/img/{{ software.img_src }}" alt="">
+			<p><strong>{{ software.software }}</strong></p>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="row">
+		{% for software in site.data.skills.softwares limit:4 offset:4 %}
+		<div class="col-md-3 col-sm-6 reveal-bottom-scale">
+			<img class="icon{% if software.small %}-sm{% endif %}" src="assets/img/{{ software.img_src }}" alt="">
+			<p><strong>{{ software.software }}</strong></p>
+		</div>
+		{% endfor %}
+	</div>
+	<h3 class="text-uppercase reveal-bottom"><strong>Experience</strong></h3>
+	<div class="text-left">
+
+		{% for job in site.data.experience %}
+		<div class="reveal-left">
+			<p><strong class="text-uppercase">{{ job.position }}</strong> | <strong>{{ job.dates }}</strong>
+				<br>
+				<strong><em>{{ job.employer }}</em></strong> – {{ job.city }}
+			</p>
+			{% for task in job.tasks %}
+				{% if forloop.first %}<ul>{% endif %}
+				<li>{{ task }}</li>
+				{% if forloop.last %}</ul>{% endif %}
+			{% endfor %}
+		</div>
+		<div class="form-group"></div>
+		{% endfor %}
+
+	</div>
+	<div class="form-group"></div>
+	<a href="/assets/files/Resume - Hans Bas.pdf" id="downloadResume" class="btn btn-default text-uppercase reveal-bottom-scale">Download Résumé (PDF)</a>
+</div>
