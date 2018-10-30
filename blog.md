@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hans Bas – Blog"
+title: "Blog"
 permalink: /blog/
 ---
 

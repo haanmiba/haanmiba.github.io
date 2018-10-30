@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hans Bas | Software Engineer & Graphic Designer"
+title: "Software Engineer & Graphic Designer"
 permalink: /
 ---
 
