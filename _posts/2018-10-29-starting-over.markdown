@@ -8,7 +8,7 @@ preview: "Some things you just need to start over. This website is one of those 
 
 <div class="form-group"></div>
 
-I told myself I would sleep early tonight. It's 3AM on a Monday. I have class at 8. And I can't stop listening to [\"Rain King\"](https://www.youtube.com/watch?v=izeDRfkyMAQ) by Counting Crows.
+I told myself I would sleep early tonight. It's 3AM on a Monday. I have class at 8. And I have [\"Rain King\"](https://www.youtube.com/watch?v=izeDRfkyMAQ) by Counting Crows on infinite repeat.
 
 But some things you just need to get done. You need to finish. I'm the type of person who **_needs_** to finish something once I start it. Poor timing on my part, I started migrating my personal website over to Jekyll this past weekend and it took me until 3AM today to nearly complete my migration.
 
