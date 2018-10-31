@@ -43,21 +43,20 @@ def move_file(path, dest):
     shutil.move(path, new_path)
 
 
-def update_date(title):
-    file_url = title.split('/')[-1]
-    updated_file_path = '_posts/{}'.format(file_url)
+def publish(title):
+    url = title.split('/')[-1]
 
     now = datetime.now()
     post_date = now.strftime('%Y-%m-%d')
     post_time = now.strftime('%H:%M:%S -4000')
-    for line in fileinput.input(updated_file_path, inplace=True):
+    for line in fileinput.input(title, inplace=True):
         if line.startswith('date:'):
             print('date: {} {}'.format(post_date, post_time))
         else:
             print(line, end='')
 
-    new_url = post_date + '-' + '-'.join(file_url.split('-')[3:])
-    os.rename(updated_file_path, '_posts/{}'.format(new_url))
+    new_url = post_date + '-' + '-'.join(url.split('-')[3:])
+    os.rename(title, '_posts/{}'.format(new_url))
 
 
 def main():
@@ -81,8 +80,7 @@ def main():
                 print('error: <path> must start with `_drafts/`\n')
                 sys.exit(1)
 
-            move_file(file_path, dest='_posts')
-            update_date(file_path)
+            publish(file_path)
         elif action == '--unpublish':
             if len(sys.argv) < 3 or not file_path:
                 print('error: missing <path>')
