@@ -1,4 +1,6 @@
 currently:
+  - action: 'putting together a project at'
+  - subject: 'UB Hacking'
   - action: 'teaching rising programmers the basics of Java and Object-Oriented Programming as an'
     subject: 'Undergraduate Teaching Assistant'
   - action: 'promoting university events as a '
@@ -6,7 +8,7 @@ currently:
   - action: 'seeking a'
     subject: 'Summer 2019 Summer Internship'
 dog: 'Samoyed'
-sneaker: 'Adidas Slides'
+sneaker: 'Nike Air Force 1s'
 learning: 'Regex'
 reading:
   book: 'The Power of Habit'
