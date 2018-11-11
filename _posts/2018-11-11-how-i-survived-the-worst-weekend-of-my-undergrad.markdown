@@ -11,7 +11,7 @@ TL;DR **I didn't**. Return to the home page using this [link](https://www.hansba
 <div class="form-group"></div>
 
 <div style="text-align:center;">
-	<img src="https://onetwentysevenweb.files.wordpress.com/2017/11/null7.png?w=346&h=275" alt="">
+	<img class="img-fluid" src="https://onetwentysevenweb.files.wordpress.com/2017/11/null7.png?w=346&amp;h=275" alt="">
 </div>
 
 Okay all jokes aside, I **did** survive the worst week of my undergraduate career \(so far\). So you may be asking – *why* was this the worst week of my undergrad? Well, simply – everything was due at and around the same time. Homeworks were due, projects were due, midterms were happening, all my friends wanted to hang out, there were events happening on campus I wanted to go to – it was quite overwhelming! So this blog post is simply to reflect on this week and what I learned.
