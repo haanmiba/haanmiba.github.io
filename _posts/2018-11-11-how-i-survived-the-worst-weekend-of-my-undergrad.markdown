@@ -107,6 +107,8 @@ However I had my transportation \(END 285\) project and quiz due that night. Hon
 
 Now since it was a 24-hour hackathon, and I was heavily invested in my project, I didn't sleep that night. I went back to my apartment and spent the night learning how to connect my Python Flask/REST API backend to a database so I can set up logins and accounts on my web app.
 
+<div class="form-group"></div>
+
 #### Sunday
 
 Sunday morning I was still awake. I reached a state of faux-awakeness where I believed I would be fine for the rest of the day. I was going to make it right? I went back to the hackathon, presented the web app I created, and I left. Honestly this was the most eventful UB Hacking I have been to – I learned so much about back end and working with databases that I am excited for the next project I create with my new knowledge.
@@ -114,6 +116,8 @@ Sunday morning I was still awake. I reached a state of faux-awakeness where I be
 That afternoon two of my friends and I drove to downtown Buffalo \(I wasn't driving\) to watch _Fiddler on the Roof_ at Shea's Theater. This was where my body would take its revenge on me. I was awake up until the first dance number, 'Tradition', but immediately after I fell asleep for the majority of Act I. I was pretty upset since I was really looking forward to seeing _Fiddler_. I was awake for the entirety of Act II though, and I had a fun time with my friends despite me not knowing the plot since I missed Act I. Not only that but _Fiddler_ without a doubt has the best bows I have ever seen in any musical, so I was happy to experience it as the first musical I have seen at Shea's Theater.
 
 When I got home that I absolutely crashed. I came to a realization that my weekend was already over and that I would have class again the next morning so I did not want to continue doing any work. I laid in my bed at 7PM and slept until 9:30AM the next day. The worst weekend of my undergrad career was over. And I survived.
+
+<div class="form-group"></div>
 
 #### What I Learned
 
