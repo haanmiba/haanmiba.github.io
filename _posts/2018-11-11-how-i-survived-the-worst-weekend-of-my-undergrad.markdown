@@ -121,7 +121,7 @@ When I got home that I absolutely crashed. I came to a realization that my weeke
 
 #### What I Learned
 
-The first thing I learned was from the interval scheduling homework form Algos: **_work on things in order of their deadline__*. It's a way to minimize lateness and ensure that tasks get mostly done.
+The first thing I learned was from the interval scheduling homework form Algos: **_work on things in order of their deadline_**. It's a way to minimize lateness and ensure that tasks get mostly done.
 
 From the hackathon I learned so much about Flask, REST APIs, databases, and creating web applications in general. I'll definitely continue learning more about these topics but I am happy to say that I was able to create a basic web application.
 
