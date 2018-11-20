@@ -5,9 +5,9 @@
 		<h3 class="text-uppercase"><strong>Education</strong></h3>
 		<div class="text-left">
 			<p>
-				<span><strong class="text-uppercase">{{ site.data.education.school }}</strong></span> | <strong>{{ site.data.education.dates }}</strong>
+				<span><strong>{{ site.data.education.school }}</strong></span> | <strong>{{ site.data.education.city }}</strong>
 				<br>
-				{{ site.data.education.city }}
+				{{ site.data.education.dates }}
 				<br>
 				<strong><em>
 				{% for major in site.data.education.majors %}
@@ -44,7 +44,7 @@
 	<div class="row">
 		{% for software in site.data.skills.softwares limit:4 %}
 		<div class="col-md-3 col-sm-6 reveal-bottom-scale">
-			<img class="icon{% if software.small %}-sm{% endif %}" src="assets/img/{{ software.img_src }}" alt="">
+			<img class="icon" src="assets/img/{{ software.img_src }}" alt="">
 			<p><strong>{{ software.software }}</strong></p>
 		</div>
 		{% endfor %}
@@ -52,8 +52,18 @@
 	<div class="row">
 		{% for software in site.data.skills.softwares limit:4 offset:4 %}
 		<div class="col-md-3 col-sm-6 reveal-bottom-scale">
-			<img class="icon{% if software.small %}-sm{% endif %}" src="assets/img/{{ software.img_src }}" alt="">
+			<img class="icon" src="assets/img/{{ software.img_src }}" alt="">
 			<p><strong>{{ software.software }}</strong></p>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="form-group"></div>
+	<h4 class="text-uppercase reveal-bottom">Frameworks</h4>
+	<div class="row">
+		{% for framework in site.data.skills.frameworks %}
+		<div class="col-md-4 col-sm-3 reveal-bottom-scale">
+			<img class="icon" src="assets/img/{{ framework.img_src }}" alt="">
+			<p><strong>{{ framework.framework }}</strong></p>
 		</div>
 		{% endfor %}
 	</div>
@@ -62,10 +72,11 @@
 
 		{% for job in site.data.experience %}
 		<div class="reveal-left">
-			<p><strong class="text-uppercase">{{ job.position }}</strong> | <strong>{{ job.dates }}</strong>
+			<p><strong>{{ job.employer }}</strong> | <strong>{{ job.city }}</strong>
 				<br>
-				<strong><em>{{ job.employer }}</em></strong> – {{ job.city }}
+				<strong><em>{{ job.position }}</em></strong> | {{ job.dates }}
 			</p>
+			{% if job.description %}<p>{{ job.description }}</p>{% endif %}
 			{% for task in job.tasks %}
 				{% if forloop.first %}<ul>{% endif %}
 				<li>{{ task }}</li>
