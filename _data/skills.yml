@@ -1,9 +1,9 @@
 languages:
-  - language: 'Java'
-    img_src: 'Java icon.png'
-
   - language: 'Python'
     img_src: 'Python icon.png'
+
+  - language: 'Java'
+    img_src: 'Java icon.png'
 
   - language: 'C#'
     img_src: 'C-sharp icon.png'
@@ -21,11 +21,11 @@ softwares:
   - software: 'Visual Studio'
     img_src: 'Visual Studio icon.png'
 
-  - software: 'Eclipse'
-    img_src: 'Eclipse icon.jpeg'
-
   - software: 'PyCharm'
     img_src: 'PyCharm icon.png'
+
+  - software: 'Eclipse'
+    img_src: 'Eclipse icon.jpeg'
 
   - software: 'Sublime Text 2'
     img_src: 'Sublime Text 2 icon.png'
@@ -35,13 +35,19 @@ softwares:
 
   - software: 'Google Chrome'
     img_src: 'Google Chrome icon.png'
-    small: true
 
   - software: 'Socrata'
     img_src: 'Socrata icon.png'
-    small: true
 
   - software: 'Adobe Photoshop'
     img_src: 'Adobe Photoshop icon.png'
-    small: true
 
+frameworks:
+  - framework: 'Bootstrap'
+    img_src: 'Bootstrap icon.png'
+  
+  - framework: 'Selenium'
+    img_src: 'Selenium icon.png'
+
+  - framework: 'Flask'
+    img_src: 'Flask icon.png'

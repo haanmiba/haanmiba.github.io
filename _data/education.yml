@@ -1,5 +1,5 @@
 school: 'University at Buffalo, State University of New York'
-dates: 'Expected Grad Date: May 2020'
+dates: 'Expected Graduation Date: May 2020'
 city: 'Buffalo, NY'
 majors:
   - 'Bachelor of Science in Computer Science'
@@ -10,6 +10,7 @@ achievements:
   - "Dean's List Recipient"
   - 'Provost Scholarship Recipient'
   - 'Member of the NYS Science, Technology, Engineering and Mathematics (STEM) Incentive Program'
+  - 'Member of Tau Beta Pi - NY Nu Chapter'
 coursework:
   - 'Data Structures'
   - 'Algorithm Analysis & Design'

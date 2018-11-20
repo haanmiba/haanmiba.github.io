@@ -1,19 +1,11 @@
-- position: 'Software Engineer Intern'
-  dates: 'May 2018 – August 2018'
-  employer: 'Innovative Systems, Inc.'
-  city: 'Pittsburgh, PA'
-  tasks:
-    - 'Built parser to pre-process data from the Dow Jones Anti-Corruption database; optimized space usage by implementing Simple API for XML. Optimization resolved an issue where company systems ran out of memory when attempting to prepare data for analysis.'
-    - 'Developed schema migration software to detect differences between databases. Now used for internal company database backups and client-side database installations.'
-    - 'Refactored company codebase from Visual Basic to C#.'
 
 - position: 'Undergraduate Teaching Assistant'
   dates: 'August 2017 – Present'
   employer: 'University at Buffalo Department of Computer Science & Engineering'
   city: 'Buffalo, NY'
+  description: 'Teaches new computer science students the fundamentals of Java, object-oriented programming, test-driven development, design patterns, and basic data structures & algorithms.'
   tasks:
     - 'Courses: Introduction to Computer Science for Majors I & II'
-    - 'Conducts assignments, hosts office hours, and manages group projects for 49 students.'
 
 - position: 'Graphic Artist'
   dates: 'August 2018 – Present'
@@ -22,13 +14,14 @@
   tasks:
     - 'Designs graphics and flyers to promote university events to over 20,000 undergraduate students.'
 
-- position: 'Head Coding Camp Student Assistant'
-  dates: 'Summer 2016 & 2017'
-  employer: 'South Huntington Union Free School District'
-  city: 'Huntington Station, NY'
+- position: 'Software Engineer Intern'
+  dates: 'May 2018 – August 2018'
+  employer: 'Innovative Systems, Inc.'
+  city: 'Pittsburgh, PA'
+  description: 'Worked with a team of four to develop schema migration software for company databases using C#, Transact-SQL, and Visual Basic. Software allowed for version control between newer/older versions of database schemas. Now used for company database backups and client-side database installations.'
   tasks:
-    - 'Led a team of student assistants in teaching elementary school students the benefits of a future in computer science and STEM.'
-    - 'Helped 100+ elementary school students develop scripts in JavaScript and Google Scratch to teach them the fundamentals of programming.'
+    - 'Built parser to pre-process data from the Dow Jones Anti-Corruption database; optimized space usage by implementing Simple API for XML. Optimization resolved an issue where company systems ran out of memory when attempting to prepare data for analysis.'
+    - 'Refactored company codebase from Visual Basic to C#.'
 
 - position: 'Social Media Intern'
   dates: 'August 2017 – May 2018'
@@ -37,4 +30,12 @@
   tasks:
     - 'Designed 70+ graphics, flyers, emails, and promotions for ~1200 Honors College students.'
     - 'Assisted in transitioning the Honors College list-serv from Constant Contact to MailChimp.'
-    - 'Wrote a script to extract information for all high schools in Western New York from Niche.com to accelerate the promotion of University at Buffalo to prospective students.'
+    - 'Wrote a Python web scraping script to extract information about all high schools in Western New York from Niche.com to accelerate the promotion of the University at Buffalo to prospective students.'
+
+- position: 'Head Coding Camp Student Assistant'
+  dates: 'June 2016 – July 2017'
+  employer: 'South Huntington Union Free School District'
+  city: 'Huntington Station, NY'
+  tasks:
+    - 'Led a team of student assistants in teaching elementary school students the benefits of a future in computer science and STEM.'
+    - 'Helped over 100 elementary school students develop scripts in JavaScript and Google Scratch to teach them the fundamentals of programming.'
