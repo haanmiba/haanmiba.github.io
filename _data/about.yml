@@ -1,4 +1,6 @@
 currently:
+  - action: 'celebrating'
+    subject: 'Thanksgiving'
   - action: 'teaching rising programmers the basics of Java and Object-Oriented Programming as an'
     subject: 'Undergraduate Teaching Assistant'
   - action: 'promoting university events as a '
