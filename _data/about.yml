@@ -9,5 +9,5 @@ dog: 'Samoyed'
 sneaker: 'Nike Air Force 1s'
 learning: 'Electron'
 reading:
-  book: 'The Power of Habit'
-  author: 'Charles Duhigg'
+  book: "Man's Search for Meaning"
+  author: 'Viktor Frankl'
