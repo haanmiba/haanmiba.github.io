@@ -1,6 +1,4 @@
 currently:
-  - action: 'studying for'
-    subject: 'finals'
   - action: 'teaching rising programmers the basics of Java and Object-Oriented Programming as an'
     subject: 'Undergraduate Teaching Assistant'
   - action: 'promoting university events as a '
@@ -9,7 +7,7 @@ currently:
     subject: 'Summer 2019 Software Engineering Internship'
 dog: 'Samoyed'
 sneaker: 'Adidas Ultra Boost'
-learning: 'Electron'
+learning: 'React'
 reading:
   book: "The Power of Now"
   author: 'Eckhart Tolle'
