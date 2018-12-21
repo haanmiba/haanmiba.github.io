@@ -12,12 +12,7 @@ permalink: /blog/
 			<div class="text-left reveal-left">
 			<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 			<p><span style='font-size: 16px'>{{ post.date | date: '%A, %B %d, %Y' }}</span></p>
-			<div class="row">
-				<div class="col-lg-9">
-				<p>{{ post.preview }}</p>
-				</div>
-				<div class="col-lg-3"></div>
-			</div>
+			<p>{{ post.preview }}</p>
 			{% if forloop.last != true %}<div class="form-group"></div>{% endif %}
 			</div>
 		{% endfor %}
