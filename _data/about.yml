@@ -1,11 +1,11 @@
 currently:
-  - action: 'teaching rising programmers the basics of Java and Object-Oriented Programming as an'
-    subject: 'Undergraduate Teaching Assistant'
-  - action: 'promoting university events as a '
-    subject: 'Graphic Artist'
-dog: 'Samoyed'
-sneaker: 'Nike Air Force 1s'
-learning: 'React'
+  - action: "teaching rising programmers the basics of Java and Object-Oriented Programming as an"
+    subject: "Undergraduate Teaching Assistant"
+  - action: "promoting university events as a "
+    subject: "Graphic Artist"
+dog: "Samoyed"
+sneaker: "Moccasins"
+learning: "React"
 reading:
   book: "The Power of Now"
-  author: 'Eckhart Tolle'
+  author: "Eckhart Tolle"
