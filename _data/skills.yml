@@ -51,3 +51,6 @@ frameworks:
 
   - framework: 'Flask'
     img_src: 'Flask icon.png'
+
+  - framework: 'Materialize'
+    img_src: 'Materialize icon.png'
