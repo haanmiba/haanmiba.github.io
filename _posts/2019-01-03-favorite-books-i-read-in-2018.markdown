@@ -6,7 +6,7 @@ categories: blog personal review
 preview: "Let's take a peek into what I learned this year."
 ---
 
-Albeit a bit late, but I thought it would be good to share my favorite books from this previous year. Books offer me a portal to information and imagination that YouTube videos, movies, and TV shows cannot. And with that, here are my ten favorite books that I read in 2018!
+Albeit a bit late, but I thought it would be good to share my favorite books from this previous year. Books offer me a portal to information and imagination that YouTube videos, movies, and TV shows cannot. And with that, here are my seven favorite books that I read in 2018!
 
 ### 7) [Learning Python](https://www.goodreads.com/book/show/80435.Learning_Python?ac=1&from_search=true) by Mark Lutz, David Ascher
 
