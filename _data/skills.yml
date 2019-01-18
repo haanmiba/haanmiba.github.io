@@ -54,3 +54,12 @@ frameworks:
 
   - framework: 'Materialize'
     img_src: 'Materialize icon.png'
+
+javascript:
+  -
+  - js_skill: 'React'
+    img_src: 'React icon.png'
+  
+  - js_skill: 'Node.js'
+    img_src: 'Node JS icon.png'
+  -

@@ -83,6 +83,17 @@
     </div>
     {% endfor %}
   </div>
+  <h4 class="text-uppercase reveal-bottom">JavaScript</h4>
+  <div class="row">
+    {% for js_skill in site.data.skills.javascript %}
+    <div class="col-md-3 col-sm-6 reveal-bottom-scale">
+      <img class="icon" src="assets/img/{{ js_skill.img_src }}" alt="" />
+      <p>
+        <strong>{{ js_skill.js_skill }}</strong>
+      </p>
+    </div>
+    {% endfor %}
+  </div>
   <h3 class="text-uppercase reveal-bottom"><strong>Experience</strong></h3>
   <div class="text-left">
     {% for job in site.data.experience %}
