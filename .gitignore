@@ -4,4 +4,4 @@ _drafts
 .jekyll-metadata
 *.psd
 .vscode
-.DS_Store/
+.DS_Store
