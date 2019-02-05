@@ -11,5 +11,5 @@ dog: "Samoyed"
 sneaker: "Nike Air Force 1s"
 learning: "React"
 reading:
-  book: "Principles"
-  author: "Ray Dalio"
+  book: "The Pragmatic Programmer"
+  author: "Andrew Hunt & David Thomas"
