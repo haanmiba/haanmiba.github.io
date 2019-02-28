@@ -14,7 +14,10 @@ achievements:
 coursework:
   - 'Data Structures'
   - 'Algorithm Analysis & Design'
+  - 'Distributed Systems'
   - 'Linear Algebra'
+  - 'Theory of Computation'
+  - 'Programming Languages'
   - 'Differential Equations'
   - 'Computer Architecture'
   - 'Statistical Inference'
