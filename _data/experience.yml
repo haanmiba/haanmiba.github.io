@@ -2,6 +2,9 @@
   dates: "January 2019 – May 2019"
   employer: "CUBRC"
   city: "Buffalo, NY"
+  tasks:
+    - "Developed a command-line interface for the CUBRC Heartwood software suite. The command-line interface handled the management, configuration, and orchestration of various Docker containers that the software suite comprised of."
+    - "Tools/Utilities: Click Python, Docker SDK for Python, Docker Compose, AWS ECR, and Maven." 
 
 - position: "Undergraduate Teaching Assistant"
   dates: "August 2017 – Present"
