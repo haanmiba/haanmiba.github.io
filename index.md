@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Software Engineer & Graphic Designer"
+title: "Software Engineer"
 permalink: /
 ---
 

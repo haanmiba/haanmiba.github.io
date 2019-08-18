@@ -2,11 +2,11 @@ languages:
   - language: 'Python'
     img_src: 'Python icon.png'
 
+  - language: 'TypeScript'
+    img_src: 'typescript-icon.png'
+
   - language: 'Java'
     img_src: 'Java icon.png'
-
-  - language: 'C#'
-    img_src: 'C-sharp icon.png'
 
   - language: 'JavaScript'
     img_src: 'JavaScript icon.png'
@@ -14,12 +14,12 @@ languages:
   - language: 'HTML5'
     img_src: 'HTML5 icon.png'
 
-  - language: 'CSS3'
-    img_src: 'Css3 icon.png'
+  - language: 'C#'
+    img_src: 'C-sharp icon.png'
 
 softwares:
-  - software: 'Visual Studio'
-    img_src: 'Visual Studio icon.png'
+  - software: 'Visual Studio Code'
+    img_src: 'visual-studio-code-icon.png'
 
   - software: 'PyCharm'
     img_src: 'PyCharm icon.png'
@@ -27,20 +27,20 @@ softwares:
   - software: 'Eclipse'
     img_src: 'Eclipse icon.jpeg'
 
-  - software: 'Sublime Text 2'
-    img_src: 'Sublime Text 2 icon.png'
+  - software: 'IntelliJ IDEA'
+    img_src: 'intellij-icon.png'
 
-  - software: 'SQL Server'
-    img_src: 'SQL Server icon.png'
+  - software: 'Git'
+    img_src: 'git-icon.png'
 
-  - software: 'Google Chrome'
-    img_src: 'Google Chrome icon.png'
+  - software: 'GraphQL'
+    img_src: 'graphql-icon.png'
 
-  - software: 'Socrata'
-    img_src: 'Socrata icon.png'
+  - software: 'MySQL'
+    img_src: 'mysql-icon.png'
 
-  - software: 'Adobe Photoshop'
-    img_src: 'Adobe Photoshop icon.png'
+  - software: 'SourceTree'
+    img_src: 'sourcetree-icon.png'
 
 frameworks:
   - framework: 'Bootstrap'
@@ -56,10 +56,14 @@ frameworks:
     img_src: 'Materialize icon.png'
 
 javascript:
-  -
   - js_skill: 'React'
     img_src: 'React icon.png'
-  
+
   - js_skill: 'Node.js'
     img_src: 'Node JS icon.png'
-  -
+
+  - js_skill: 'TypeORM'
+    img_src: 'typeorm-icon.png'
+    
+  - js_skill: 'TypeGraphQL'
+    img_src: 'typegraphql-icon.png'

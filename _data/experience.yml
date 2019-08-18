@@ -1,4 +1,13 @@
 - position: "Software Engineer Intern"
+  dates: "June 2019 – August 2019"
+  employer: "Teachers Pay Teachers"
+  city: "New York, NY"
+  tasks:
+    - "Designed and built a backend microservice using TypeScript, Node.js, and Express."
+    - "Increased the number of users that completed profile information by ~40,000 by deploying a homepage banner that prompted users to complete their profiles. Won company hackathon for “Most Immediate Impact”."
+    - "Tools/Utilities: TypeScript, Node.js, Express, GraphQL, TypeORM, MySQL, React, Jest for test-driven development, Jenkins for continuous integration, Helm charts for Kubernetes configurations"
+
+- position: "Software Engineer Intern"
   dates: "January 2019 – May 2019"
   employer: "CUBRC"
   city: "Buffalo, NY"

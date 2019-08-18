@@ -1,11 +1,9 @@
 currently:
-  - action: "interning as a software engineer at"
-    subject: "Teachers Pay Teachers"
   - action: "teaching rising programmers the basics of Java and Object-Oriented Programming as an"
     subject: "Undergraduate Teaching Assistant"
 dog: "Samoyed"
-sneaker: "Adidas Alphabounce"
-learning: "React Native"
+sneaker: "Adidas Stan Smiths"
+learning: "TypeScript"
 reading:
   book: "Call Me By Your Name"
   author: "André Aciman"
