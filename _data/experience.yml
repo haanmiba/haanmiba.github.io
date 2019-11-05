@@ -13,7 +13,7 @@
   city: "Buffalo, NY"
   tasks:
     - "Developed a command-line interface for the CUBRC Heartwood software suite. The command-line interface handled the management, configuration, and orchestration of various Docker containers that the software suite comprised of."
-    - "Tools/Utilities: Click Python, Docker SDK for Python, Docker Compose, AWS ECR, and Maven." 
+    - "Tools/Utilities: Click Python, Docker SDK for Python, Docker Compose, AWS ECR, and Maven."
 
 - position: "Undergraduate Teaching Assistant"
   dates: "August 2017 – Present"
@@ -37,7 +37,6 @@
   description: "Worked with a team of four to develop schema migration software for company databases using C#, Transact-SQL, and Visual Basic. Software allowed for version control between newer/older versions of database schemas. Now used for company database backups and client-side database installations."
   tasks:
     - "Built parser to pre-process data from the Dow Jones Anti-Corruption database; optimized space usage by implementing Simple API for XML. Optimization resolved an issue where company systems ran out of memory when attempting to prepare data for analysis."
-    - "Refactored company codebase from Visual Basic to C#."
 
 - position: "Social Media Intern"
   dates: "August 2017 – May 2018"

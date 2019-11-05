@@ -1,9 +1,11 @@
 currently:
   - action: "teaching rising programmers the basics of JavaScript and Python as an"
     subject: "Undergraduate Teaching Assistant"
+  - action: "teaching algorithm analysis and design as an"
+    subject: "Undergraduate Teaching Assistant"
 dog: "Chow Chow"
 sneaker: "Vans Old Skool"
 learning: "Truffle"
 reading:
-  book: "Zen Mind, Beginner's Mind"
-  author: "Shunryu Suzuki"
+  book: "Excellent Sheep"
+  author: "William Deresiewicz"
