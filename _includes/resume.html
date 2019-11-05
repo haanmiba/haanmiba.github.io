@@ -5,10 +5,10 @@
   <h2 class="reveal-bottom">
     <strong><u>Résumé</u></strong>
   </h2>
-  <div class="reveal-left">
-    <h3 class="text-uppercase"><strong>Education</strong></h3>
+  <div>
+    <h3 class="text-uppercase reveal-left"><strong>Education</strong></h3>
     <div class="text-left">
-      <p>
+      <p class="reveal-left">
         <span
           ><strong>{{ site.data.education.school }}</strong></span
         >
@@ -26,11 +26,11 @@
       forloop.first %}
       <ul>
         {% endif %}
-        <li>{{ achievement }}</li>
+        <li class="reveal-left">{{ achievement }}</li>
         {% if forloop.last %}
       </ul>
       {% endif %} {% endfor %}
-      <p>
+      <p class="reveal-left">
         <strong>Relevant Coursework: </strong> {% for course in
         site.data.education.coursework %} {{ course }}{% if forloop.last != true
         %},{% endif %} {% endfor %}
