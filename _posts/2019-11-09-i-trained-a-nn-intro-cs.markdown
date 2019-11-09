@@ -577,61 +577,62 @@ And now we have trained an neural network to generate CSE 115 Piazza posts! The 
 
 ### Some of my favorite outcomes from generating CSE 115 Piazza text posts
 
-_I have to find the file of the code of the function is not sure what to see it in the code to get the project of the function in the file in the project for the file in the function in the function in the function filterByMonth failed._
+<pre><code class="plaintext">I have to find the file of the code of the function is not sure what to see it in the code to get the project of the function in the file in the project for the file in the function in the function in the function filterByMonth failed.
 
-_I have sure what to receive the project and the look in the project and the function in the function in the function in the function in the function filterByMonth(lines)_
+I have sure what to receive the project and the look in the project and the function in the function in the function in the function in the function filterByMonth(lines)
 
-_Hello, I was bottled to be in the study?_
+Hello, I was bottled to be in the study?
 
-_I have string the section of representing the input is an event but I don't understand what is my own code when there is an error to a research study?_
+I have string the section of representing the input is an event but I don't understand what is my own code when there is an error to a research study?
 
-_I was working on the project and I was working on the project and every time I have to fix this._
+I was working on the project and I was working on the project and every time I have to fix this.
 
-_I am not sure why this is not wanted to be anything I'm not sure why this is a problem. I'm not sure why this is when I cancelled the route is a point and go to_
+I am not sure why this is not wanted to be anything I'm not sure why this is a problem. I'm not sure why this is when I cancelled the route is a point and go to
 
-_How do I fix this question._
+How do I fix this question.
 
-_I am unsure of what to figure out I can't figure out my code and the function is a list of the project of the first time submission cannot submit._
+I am unsure of what to figure out I can't figure out my code and the function is a list of the project of the first time submission cannot submit.
 
-_I am not sure where to fix this?_
+I am not sure where to fix this?
 
-_Hey to return a function that is not a function in the project and request to participate in the server or when I submit it is wrong?_
+Hey to return a function that is not a function in the project and request to participate in the server or when I submit it is wrong?
 
-_I am having trouble file and the project running tests. I can't figure out what I am getting._
+I am having trouble file and the project running tests. I can't figure out what I am getting.
 
-_Hello, I submitted my code with this error on whose I'm doing wrong._
+Hello, I submitted my code with this error on whose I'm doing wrong.
 
-_I'm doing wrong._
+I'm doing wrong.
 
-_Hi everyone, Sorry for this problem._
+Hi everyone, Sorry for this problem.
 
-_I have to fix this. I'm not sure whats welped._
+I have to fix this. I'm not sure whats welped.
 
-_I cannot find this._
+I cannot find this.
 
-_I am doing wrong from the list to the beginning. I am not sure why what I'm doing wrong with the graphs that I submitted to expected out in the graphs._
+I am doing wrong from the list to the beginning. I am not sure why what I'm doing wrong with the graphs that I submitted to expected out in the graphs.
 
-_I cannot fix this issue is being complete the same as the semester, please help._
+I cannot fix this issue is being complete the same as the semester, please help.
 
-_I cannot find appcode.py file in the first event._
+I cannot find appcode.py file in the first event.
 
-_I have been wrong._
+I have been wrong.
 
-_I am getting this code and why is that if you have to fix this problem._
+I am getting this code and why is that if you have to fix this problem.
 
-_I cannot figure out what I'm doing wrong._
+I cannot figure out what I'm doing wrong.
 
-_I am still working on my code because I cannot find this problem and some help?_
+I am still working on my code because I cannot find this problem and some help?
 
-_How do I see how to fix this._
+How do I see how to fix this.
 
-_I am not sure why this is what I'm doing wrong._
+I am not sure why this is what I'm doing wrong.
 
-_I submitted my code when I submitted this._
+I submitted my code when I submitted this.
 
-_How do I check you! I have to filter the distance of the same project or we submit it and then it would be able to get the dictionaries?_
+How do I check you! I have to filter the distance of the same project or we submit it and then it would be able to get the dictionaries?
 
-_I was still working on the data file and it doesn't work._
+I was still working on the data file and it doesn't work.
+</code></pre>
 
 ### Conclusion
 
