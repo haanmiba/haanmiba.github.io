@@ -259,49 +259,49 @@ if __name__ == '__main__':
 
 Now when we run `python fetch_piazza_posts.py`, we're going to see a series of ten dictionaries printed to our console, each one with this format:
 
-```JavaScript
+```json
 {
-    'bookmarked': 2,
-    'bucket_name': 'Pinned',
-    'bucket_order': 0,
-    'change_log': [{...}],
-    'children': [],
-    'config': {
-        'bypass_email': 1,
-        'is_announcement': 1
-    },
-    'created': '2019-11-07T20:33:26Z',
-    'data': {'embed_links': [...]},
-    'default_anonymity': 'no',
-    'folders': ['other'],
-    'history': [{...}],
-    'i_edits': [],
-    'id':'a0bcdejo13498fb',
-    'is_bookmarked': False,
-    ...
+  'bookmarked': 2,
+  'bucket_name': 'Pinned',
+  'bucket_order': 0,
+  'change_log': [{...}],
+  'children': [],
+  'config': {
+    'bypass_email': 1,
+    'is_announcement': 1
+  },
+  'created': '2019-11-07T20:33:26Z',
+  'data': {'embed_links': [...]},
+  'default_anonymity': 'no',
+  'folders': ['other'],
+  'history': [{...}],
+  'i_edits': [],
+  'id':'a0bcdejo13498fb',
+  'is_bookmarked': False,
+  ...
 }
 ```
 
 Since we only care about the **text** of the Piazza post, we only care about one field: `post[history]`. The `history` key stores the text body of the post. The `history` field is structured like so:
 
-```JavaScript
+```json
 {
-    'history': [
-        {
-            'anon': 'no',
-            'content': '<p><strong>Here is the post content</strong></p>',
-            'created': '2019-11-07T20:33:26Z',
-            'subject': 'SUBJECT OF THE POST',
-            'uid': 'h88rqmabcdef1xs'
-        }
-    ],
-    ...
+  'history': [
+    {
+      'anon': 'no',
+      'content': '<p><strong>Here is the post content</strong></p>',
+      'created': '2019-11-07T20:33:26Z',
+      'subject': 'SUBJECT OF THE POST',
+      'uid': 'h88rqmabcdef1xs'
+    }
+  ],
+  ...
 }
 ```
 
 We just need to change our `print(...)` to print just the text, which is stored under `history`, index `0`, key `content`. So this would be `post['history'][0]['content']`:
 
-```Python
+```python
 import json
 import os
 from piazza_api import Piazza
@@ -390,8 +390,7 @@ if __name__ == '__main__':
 
 Now when I run `python fetch_piazza_posts.py`, I get this printed to my console:
 
-```
-Dear students,
+<pre><code class="plaintext">Dear students,
 
 As you hopefully know by now, you have to enable Duo two-factor authentication
 on your UB account by November 18th. Luckily, UBIT is providing a free, easy,
@@ -411,7 +410,8 @@ We have a project 1 submission target open in AutoLab. The submission target
 was accidentally open earlier, and a few submissions snuck in. To ensure that
 everyone gets the benefit of all the feedback available, **ALL OF THESE EARLY
 SUBMISSIONS HAVE BEEN REMOVED, and everyone now has 5 submissions remaining.**
-```
+</code>
+</pre>
 
 So we are doing a lot better than before, but not quite. We should still clean this up, which means removing newlines, removing unnecessary whitespace, and using regex to clean up some more complex patterns (image links, etc.). So I'm going to add some more function calls to clean up Piazza post content:
 
@@ -455,10 +455,9 @@ if __name__ == '__main__':
 
 So now when we run `python fetch_text_posts.py`, we get this printed to console, which is super clean!
 
-```
-Dear students, As you hopefully know by now, you have to enable Duo two-factor authentication on your UB account by November 18th. Luckily, UBIT is providing a free, easy, privacy-safe solution in the form of hardware tokens. Simply bring your UBID to the third-floor Capen UBIT helpdesk and you'll get a fob you can attach to your keychain. Press the button and you generate a one-time code. Please, _please_ , **_please_** __ get this done before the deadline. Thank you! #pin
+<pre><code class="plaintext">Dear students, As you hopefully know by now, you have to enable Duo two-factor authentication on your UB account by November 18th. Luckily, UBIT is providing a free, easy, privacy-safe solution in the form of hardware tokens. Simply bring your UBID to the third-floor Capen UBIT helpdesk and you'll get a fob you can attach to your keychain. Press the button and you generate a one-time code. Please, _please_ , **_please_** __ get this done before the deadline. Thank you! #pin
 We have a project 1 submission target open in AutoLab. The submission target was accidentally open earlier, and a few submissions snuck in. To ensure that everyone gets the benefit of all the feedback available, **ALL OF THESE EARLY SUBMISSIONS HAVE BEEN REMOVED, and everyone now has 5 submissions remaining.** Before submitting, be sure to review the submission requirements. I have tested the submission target but will monitor throughout the weekend in case there are any issues. As noted in @410, we have pushed the submission deadline to Friday, November 8 @ 5:00 PM. #pin
-```
+</code></pre>
 
 Final thing, now let's change our code so that instead of printing to console, we write this to a file. Let's change a few things:
 
@@ -537,21 +536,20 @@ Then all we need is to create a `textgenrnn` model to train. We don't even need 
 And now we are in the REPL. Let's begin playing around with `textgenrnn`:
 
 ```Python
-from textgenrnn import textgenrnn
-
-textgen = textgenrnn()
+>>> from textgenrnn import textgenrnn
+>>> textgen = textgenrnn()
 ```
 
 And let's train it using the file with all our Piazza posts stored as text. Just so we can train our model a bit but not have to wait too long, let's use `3` epochs for training:
 
 ```Python
-textgen.train_from_file('<filename>.txt', num_epochs=3)
+>>> textgen.train_from_file('<filename>.txt', num_epochs=3)
 ```
 
 You may notice that there is a new file in your directory called `textgenrnn_weights.hdf5`. This file simply stores the model weights. This means if you ever want to work with this model again, you don't need to retrain it, you can just reconstruct it using this file:
 
 ```Python
-textgen_2 = textgenrnn('textgenrnn_weights.hdf5')
+>>> textgen_2 = textgenrnn('textgenrnn_weights.hdf5')
 ```
 
 Last step: generating posts. The first argument is the number of posts to generate, the second argument (`temperature`) is how "creative" the model is when generating posts (0.0 means less creative, 1.0 means more creative). I personally like to generate with `temperature=0.2` or `temperature=0.5`. But do whatever you wish.
@@ -559,21 +557,20 @@ Last step: generating posts. The first argument is the number of posts to genera
 **_Note: near temperature=1.0 you may start to get gibberish._**
 
 ```Python
-textgen_2.generate(3, temperature=0.5)
+>>> textgen_2.generate(3, temperature=0.5)
 ```
 
-```
-I submitted my code when I submitted this.
+<pre><code class="plaintext">I submitted my code when I submitted this.
 
 I cannot find appcode.py file in the first event.
 
 I have to do this study of the second floor lounge and help?
-```
+</code></pre>
 
 If you want to save your model's generated text, just do the following (tweaking arguments to your liking – `n` is the number of posts to generate, `temperature` is how creative the neural network should be):
 
 ```Python
-textgen_2.generate_to_file('file_to_write_to.txt', n=10, temperature=0.5)
+>>> textgen_2.generate_to_file('file_to_write_to.txt', n=10, temperature=0.5)
 ```
 
 And now we have trained an neural network to generate CSE 115 Piazza posts! The section below details some of my favorite texts that it has generated:
