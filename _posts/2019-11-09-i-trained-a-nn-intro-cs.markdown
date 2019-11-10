@@ -390,7 +390,7 @@ if __name__ == '__main__':
 
 Now when I run `python fetch_piazza_posts.py`, I get this printed to my console:
 
-<pre><code class="plaintext">Dear students,
+<pre class="break-word"><code class="plaintext">Dear students,
 
 As you hopefully know by now, you have to enable Duo two-factor authentication
 on your UB account by November 18th. Luckily, UBIT is providing a free, easy,
@@ -455,7 +455,7 @@ if __name__ == '__main__':
 
 So now when we run `python fetch_text_posts.py`, we get this printed to console, which is super clean!
 
-<pre><code class="plaintext">Dear students, As you hopefully know by now, you have to enable Duo two-factor authentication on your UB account by November 18th. Luckily, UBIT is providing a free, easy, privacy-safe solution in the form of hardware tokens. Simply bring your UBID to the third-floor Capen UBIT helpdesk and you'll get a fob you can attach to your keychain. Press the button and you generate a one-time code. Please, _please_ , **_please_** __ get this done before the deadline. Thank you! #pin
+<pre class="break-word"><code class="plaintext">Dear students, As you hopefully know by now, you have to enable Duo two-factor authentication on your UB account by November 18th. Luckily, UBIT is providing a free, easy, privacy-safe solution in the form of hardware tokens. Simply bring your UBID to the third-floor Capen UBIT helpdesk and you'll get a fob you can attach to your keychain. Press the button and you generate a one-time code. Please, _please_ , **_please_** __ get this done before the deadline. Thank you! #pin
 We have a project 1 submission target open in AutoLab. The submission target was accidentally open earlier, and a few submissions snuck in. To ensure that everyone gets the benefit of all the feedback available, **ALL OF THESE EARLY SUBMISSIONS HAVE BEEN REMOVED, and everyone now has 5 submissions remaining.** Before submitting, be sure to review the submission requirements. I have tested the submission target but will monitor throughout the weekend in case there are any issues. As noted in @410, we have pushed the submission deadline to Friday, November 8 @ 5:00 PM. #pin
 </code></pre>
 
@@ -560,7 +560,7 @@ Last step: generating posts. The first argument is the number of posts to genera
 >>> textgen_2.generate(3, temperature=0.5)
 ```
 
-<pre><code class="plaintext">I submitted my code when I submitted this.
+<pre class="break-word"><code class="plaintext">I submitted my code when I submitted this.
 
 I cannot find appcode.py file in the first event.
 
@@ -577,7 +577,7 @@ And now we have trained an neural network to generate CSE 115 Piazza posts! The 
 
 ### Some of my favorite outcomes from generating CSE 115 Piazza text posts
 
-<pre><code class="plaintext">I have to find the file of the code of the function is not sure what to see it in the code to get the project of the function in the file in the project for the file in the function in the function in the function filterByMonth failed.
+<pre class="break-word"><code class="plaintext">I have to find the file of the code of the function is not sure what to see it in the code to get the project of the function in the file in the project for the file in the function in the function in the function filterByMonth failed.
 
 I have sure what to receive the project and the look in the project and the function in the function in the function in the function in the function filterByMonth(lines)
 

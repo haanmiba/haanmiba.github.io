@@ -207,6 +207,10 @@ pre {
   padding: 0px;
 }
 
+.break-word {
+  word-break: break-word;
+}
+
 @media (max-width: 900px) {
   .carousel-caption {
     top: 50%;
