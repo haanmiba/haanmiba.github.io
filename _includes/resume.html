@@ -1,4 +1,7 @@
 <div id="resume" class="container text-center">
+  <p>Subtotal: <span id="subtotal">100.10</span></p>
+  <p>Total: <span id="total"></span></p>
+  <input type="text" id="txtLoc" />
   <h2 class="heading-1 reveal-bottom">
     <span><strong>What</strong> I Do</span>
   </h2>
@@ -9,9 +12,7 @@
     <h3 class="text-uppercase reveal-left"><strong>Education</strong></h3>
     <div class="text-left">
       <p class="reveal-left">
-        <span
-          ><strong>{{ site.data.education.school }}</strong></span
-        >
+        <span><strong>{{ site.data.education.school }}</strong></span>
         | <strong>{{ site.data.education.city }}</strong> <br />
         {{ site.data.education.dates }} <br />
         <strong
@@ -103,9 +104,9 @@
     <div class="reveal-left">
       <p>
         <strong
-          ><span style="text-decoration: underline">{{
-            job.employer
-          }}</span></strong
+          ><span style="text-decoration: underline"
+            >{{ job.employer }}</span
+          ></strong
         >
         | {{ job.city }} <br />
         <strong>{{ job.position }}</strong> | {{ job.dates }}
