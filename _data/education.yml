@@ -1,31 +1,34 @@
-school: 'University at Buffalo, State University of New York'
-dates: 'Expected Graduation Date: May 2020'
-city: 'Buffalo, NY'
+school: "University at Buffalo, State University of New York"
+dates: "Expected Graduation Date: May 2020"
+city: "Buffalo, NY"
 majors:
-  - 'Bachelor of Science in Computer Science'
-  - 'Bachelor of Arts in Mathematics'
-gpa: '3.69/4.00'
+  - "Bachelor of Science in Computer Science"
+  - "Bachelor of Arts in Mathematics"
+gpa: "3.69/4.00"
 achievements:
-  - 'University Honors College'
+  - "University Honors College"
   - "Dean's List Recipient"
-  - 'Provost Scholarship Recipient'
-  - 'Member of the NYS Science, Technology, Engineering and Mathematics (STEM) Incentive Program'
+  - "Provost Scholarship Recipient"
+  - "Member of the NYS Science, Technology, Engineering and Mathematics (STEM) Incentive Program"
 coursework:
-  - 'Software Engineering'
-  - 'Data Structures'
-  - 'Algorithm Analysis & Design'
-  - 'Distributed Systems'
-  - 'Linear Algebra'
-  - 'Computer Vision'
-  - 'Operating Systems'
-  - 'Theory of Computation'
-  - 'Programming Languages'
-  - 'Differential Equations'
-  - 'Computer Architecture'
-  - 'Blockchain'
-  - 'Statistical Inference'
-  - 'Higher Math'
-  - 'Discrete Structures'
-  - 'Digital Systems'
-  - 'STEM Communications'
-  - 'Calculus I-III'
+  - "Software Engineering"
+  - "Data Structures"
+  - "Algorithm Analysis & Design"
+  - "Scientific & Mathematical Computation"
+  - "Distributed Systems"
+  - "Linear Algebra"
+  - "Computer Vision"
+  - "Operating Systems"
+  - "Theory of Computation"
+  - "Programming Languages"
+  - "Differential Equations"
+  - "Computer Architecture"
+  - "Blockchain"
+  - "Statistical Inference"
+  - "Probability Theory"
+  - "Higher Math"
+  - "Discrete Structures"
+  - "Digital Systems"
+  - "STEM Communications"
+  - "Combinatorics"
+  - "Calculus I-III"
