@@ -1,11 +1,12 @@
 school: "University at Buffalo, State University of New York"
-dates: "Expected Graduation Date: May 2020"
+dates: "Graduation Date: May 2020"
 city: "Buffalo, NY"
 majors:
   - "Bachelor of Science in Computer Science"
   - "Bachelor of Arts in Mathematics"
-gpa: "3.69/4.00"
+gpa: "3.70/4.00"
 achievements:
+  - "Magna Cum Laude"
   - "University Honors College"
   - "Dean's List Recipient"
   - "Provost Scholarship Recipient"
