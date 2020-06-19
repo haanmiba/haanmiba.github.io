@@ -100,25 +100,27 @@
     {% for job in site.data.experience %}
     <div class="reveal-left">
       <p>
-        <strong
-          ><span style="text-decoration: underline"
-            >{{ job.employer }}</span
-          ></strong
-        >
-        | {{ job.city }} <br />
-        <strong>{{ job.position }}</strong> | {{ job.dates }}
+        <strong><span style="text-decoration: underline;">{{ job.employer }}</span></strong> | {{ job.city }}
       </p>
-      {% if job.description %}
-      <p>{{ job.description }}</p>
-      {% endif %} {% for task in job.tasks %} {% if forloop.first %}
-      <ul>
-        {% endif %}
-        <li>{{ task }}</li>
-        {% if forloop.last %}
-      </ul>
-      {% endif %} {% endfor %}
+      {% for position in job.positions %}
+      <p><strong>{{ position.position }}</strong> | {{ position.dates }}</p>
+      {% if position.description %}
+      <p>{{ position.description }}</p>
+      {% endif %}
+        {% for task in position.tasks %}
+          {% if forloop.first %}
+          <ul>
+          {% endif %}
+          <li>{{ task }}</li>
+          {% if forloop.last %}
+          </ul>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
     </div>
-    <div class="form-group"></div>
+    {% if forloop.last == false %}
+    <hr class="reveal-left" />
+    {% endif %}
     {% endfor %}
   </div>
   <div class="form-group"></div>
