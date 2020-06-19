@@ -1,11 +1,9 @@
 currently:
-  - action: "teaching rising programmers the basics of JavaScript and Python as an"
-    subject: "Undergraduate Teaching Assistant"
-  - action: "teaching algorithm analysis and design as an"
-    subject: "Undergraduate Teaching Assistant"
+  - action: "empowering educators and developing digital experiences as a"
+    subject: "Software Engineer"
 dog: "Samoyed"
 sneaker: "Vans Old Skool"
-learning: "GraphQL"
+learning: "Redux"
 reading:
-  book: "On the Road"
-  author: "Jack Kerouac"
+  book: "Microserfs"
+  author: "Douglas Coupland"

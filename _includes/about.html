@@ -1,49 +1,68 @@
 <div id="about" class="container text-center">
-	<h2 class="heading-1 reveal-bottom"><span><strong>Who</strong> I Am</span></h2>
+  <h2 class="heading-1 reveal-bottom">
+    <span><strong>Who</strong> I Am</span>
+  </h2>
 
-	<div class="form-group"></div>
+  <div class="form-group"></div>
 
-	<img class="med reveal-bottom-fast" src="/assets/img/Hans Bas Circle Profile Pic 2.png" alt="">
+  <img
+    class="med reveal-bottom-fast"
+    id="profile-pic"
+    src="/assets/img/hans-profile-pic.jpg"
+    alt=""
+  />
 
-	<div class="form-group"></div>
-	
-	<div class="row">
-		<p class="reveal-bottom"><em>I'm just a guy who loves dogs, sneakers, and programming.</em></p>
-		<div class="form-group"></div>
-		<div class="col-sm-4"></div>
-		<div class="col-sm-4">
-			<p class="reveal-bottom">Hello!
-			<br>
-			I'm <span class="w700">Hans</span>, a software engineer just trying to leave my mark on the world.</p>
-			<div class="form-group"></div>
-			<p class="reveal-bottom">I am currently...</p>
-			{% for task in site.data.about.currently %}
-				<p class="reveal-left">– {{ task.action }} <span class="w700">{{ task.subject }}</span>.</p>
-			{% endfor %}
-		</div>
-		<div class="col-sm-4"></div>
-	</div>
+  <div class="form-group"></div>
 
-	<div class="form-group"></div>
+  <div class="row">
+    <p class="reveal-bottom">
+      <em>I'm a guy who loves dogs, sneakers, and programming.</em>
+    </p>
+    <div class="form-group"></div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <p class="reveal-bottom">
+        Hello!
+        <br />
+        I'm <span class="w700">Hans</span>, a software engineer trying to
+        leave my mark on the world.
+      </p>
+      <div class="form-group"></div>
+      <p class="reveal-bottom">I am currently...</p>
+      {% for task in site.data.about.currently %}
+      <p class="reveal-left">
+        – {{ task.action }} <span class="w700">{{ task.subject }}</span>.
+      </p>
+      {% endfor %}
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
 
-	<div class="row text-uppercase">
-		<div id="favorites">
-			<div class="col-sm-3 reveal-bottom-scale">
-				<p>(Current) Favorite Dog Breed</p>
-				<p><strong>{{ site.data.about.dog }}</strong></p>
-			</div>
-			<div class="col-sm-3 reveal-bottom-scale">
-				<p>Sneaker Worn Today</p>
-				<p><strong>{{ site.data.about.sneaker }}</strong></p>
-			</div>
-			<div class="col-sm-3 reveal-bottom-scale">
-				<p>Currently Learning</p>
-				<p><strong>{{ site.data.about.learning }}</strong></p>
-			</div>
-			<div class="col-sm-3 reveal-bottom-scale">
-				<p>Currently Reading</p>
-				<p><strong><em>{{ site.data.about.reading.book }}</em> by {{ site.data.about.reading.author }}</strong></p>
-			</div>
-		</div>
-	</div>
+  <div class="form-group"></div>
+
+  <div class="row text-uppercase">
+    <div id="favorites">
+      <div class="col-sm-3 reveal-bottom-scale">
+        <p>(Current) Favorite Dog Breed</p>
+        <p><strong>{{ site.data.about.dog }}</strong></p>
+      </div>
+      <div class="col-sm-3 reveal-bottom-scale">
+        <p>Sneaker Worn Today</p>
+        <p><strong>{{ site.data.about.sneaker }}</strong></p>
+      </div>
+      <div class="col-sm-3 reveal-bottom-scale">
+        <p>Currently Learning</p>
+        <p><strong>{{ site.data.about.learning }}</strong></p>
+      </div>
+      <div class="col-sm-3 reveal-bottom-scale">
+        <p>Currently Reading</p>
+        <p>
+          <strong
+            ><em>{{ site.data.about.reading.book }}</em> by {{
+            site.data.about.reading.author }}</strong
+          >
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
