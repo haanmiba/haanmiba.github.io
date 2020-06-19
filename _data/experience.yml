@@ -1,56 +1,73 @@
-- position: "Software Engineer Intern"
-  dates: "June 2019 – August 2019"
-  employer: "Teachers Pay Teachers"
+- employer: "Teachers Pay Teachers"
   city: "New York, NY"
-  tasks:
+  positions:
+  - position: "Software Engineer"
+    dates: "June 2020 – Present"
+  - position: "Software Engineer Intern"
+    dates: "June 2019 – August 2019"
+    tasks:
     - "Designed and built a backend microservice using TypeScript, Node.js, and Express."
-    - "Increased the number of users that completed profile information by ~40,000 by deploying a homepage banner that prompted users to complete their profiles. Won company hackathon for “Most Immediate Impact”."
-    - "Tools/Utilities: TypeScript, Node.js, Express, GraphQL, TypeORM, MySQL, React, Jest for test-driven development, Jenkins for continuous integration, Helm charts for Kubernetes configurations"
+    - "Built and deployed a homepage banner that prompted users to complete their profiles. Significantly increased the number of users with completed profile information. Won company hackathon for “Most Immediate Impact”."
+    - "Tools/Utilities: TypeScript, Node.js, Express, GraphQL, TypeORM, MySQL, React, Jest for test-driven development, Jenkins for continuous integration, Helm for Kubernetes configurations"
 
-- position: "Software Engineer Intern"
-  dates: "January 2019 – May 2019"
-  employer: "CUBRC"
+- employer: "University at Buffalo - Department of Computer Science & Engineering"
   city: "Buffalo, NY"
-  tasks:
-    - "Developed a command-line interface for the CUBRC Heartwood software suite. The command-line interface handled the management, configuration, and orchestration of various Docker containers that the software suite comprised of."
-    - "Tools/Utilities: Click Python, Docker SDK for Python, Docker Compose, AWS ECR, and Maven."
+  positions:
+  - position: "Undergraduate Teaching Assistant - CSE 331"
+    dates: "August 2019 - May 2020"
+    tasks:
+      - "Taught upper-level computer science students the paradigms for designing algorithms, and how to analyze algorithms through proofs and programming assignments."
+      - "Tools/Utilities: Python"
+    description: "Course: Algorithms and Complexity"
+  - position: "Undergraduate Teaching Assistant - CSE 115/116"
+    dates: "August 2017 – May 2020"
+    description: "Course: Introduction to Computer Science for Majors I & II"
+    tasks:
+      - "Taught new computer science students the fundamentals of computer science, object-oriented programming, test-driven development, design patterns, data structures & algorithms, and full-stack development."
+      - "Tools/Utilities: Java, JUnit Tests, Python, JavaScript, Repl.it"
 
-- position: "Undergraduate Teaching Assistant"
-  dates: "August 2017 – Present"
-  employer: "University at Buffalo Department of Computer Science & Engineering"
+- employer: "CUBRC"
   city: "Buffalo, NY"
-  description: "Teaches new computer science students the fundamentals of Java, object-oriented programming, test-driven development, design patterns, and basic data structures & algorithms."
-  tasks:
-    - "Courses: Introduction to Computer Science for Majors I & II"
+  positions:
+  - position: "Software Engineer Intern"
+    dates: "January 2019 – May 2019"
+    tasks:
+      - "Developed a command-line interface for the CUBRC in-house software suite. The command-line interface handled the management, configuration, and orchestration of various Docker containers."
+      - "Tools/Utilities: Click Python, Docker SDK for Python, Docker Compose, AWS ECR, and Maven."
 
-- position: "Graphic Artist"
-  dates: "August 2018 – May 2019"
-  employer: "University at Buffalo Undergraduate Student Association"
+- employer: "University at Buffalo - Undergraduate Student Association"
   city: "Buffalo, NY"
-  tasks:
-    - "Designs graphics and flyers to promote university events to over 20,000 undergraduate students."
+  positions:
+  - position: "Graphic Artist"
+    dates: "August 2018 – May 2019"
+    tasks:
+      - "Designed graphics and flyers to promote university events to over 20,000 undergraduate students."
 
-- position: "Software Engineer Intern"
-  dates: "May 2018 – August 2018"
-  employer: "Innovative Systems, Inc."
+- employer: "Innovative Systems, Inc."
   city: "Pittsburgh, PA"
-  description: "Worked with a team of four to develop schema migration software for company databases using C#, Transact-SQL, and Visual Basic. Software allowed for version control between newer/older versions of database schemas. Now used for company database backups and client-side database installations."
-  tasks:
-    - "Built parser to pre-process data from the Dow Jones Anti-Corruption database; optimized space usage by implementing Simple API for XML. Optimization resolved an issue where company systems ran out of memory when attempting to prepare data for analysis."
+  positions:
+  - position: "Software Engineer Intern"
+    dates: "May 2018 – August 2018"
+    tasks:
+      - "Worked with a team of interns to develop schema migration software for company databases. Software allowed for version control between newer/older versions of database schemas."
+      - "Built parser to pre-process data from the Dow Jones Anti-Corruption database; optimized space usage by implementing Simple API for XML. Optimization resolved an issue where company systems ran out of memory when attempting to prepare data for analysis."
+      - "Tools/Utilities: C#, Transact-SQL, Visual Studio"
 
-- position: "Social Media Intern"
-  dates: "August 2017 – May 2018"
-  employer: "University at Buffalo Honors College"
+- employer: "University at Buffalo - Honors College"
   city: "Buffalo, NY"
-  tasks:
-    - "Designed 70+ graphics, flyers, emails, and promotions for ~1200 Honors College students."
-    - "Assisted in transitioning the Honors College list-serv from Constant Contact to MailChimp."
-    - "Wrote a Python web scraping script to extract information about all high schools in Western New York from Niche.com to accelerate the promotion of the University at Buffalo to prospective students."
+  positions:
+  - position: "Social Media Intern"
+    dates: "August 2017 – May 2018"
+    tasks:
+      - "Designed graphics, flyers, emails, and promotions for the University Honors College student body."
+      - "Assisted in transitioning the Honors College list-serv from Constant Contact to MailChimp."
+      - "Wrote a Python web scraping script to extract information about all high schools in Western New York from Niche.com to accelerate the promotion of the University at Buffalo to prospective students."
 
-- position: "Head Coding Camp Student Assistant"
-  dates: "June 2016 – July 2017"
-  employer: "South Huntington Union Free School District"
+- employer: "South Huntington Union Free School District"
   city: "Huntington Station, NY"
-  tasks:
-    - "Led a team of student assistants in teaching elementary school students the benefits of a future in computer science and STEM."
-    - "Helped over 100 elementary school students develop scripts in JavaScript and Google Scratch to teach them the fundamentals of programming."
+  positions:
+  - position: "Head Coding Camp Student Assistant"
+    dates: "June 2016 – July 2017"
+    tasks:
+      - "Led a team of student assistants in teaching elementary school students about the benefits of a future in computer science and STEM."
+      - "Helped over 100 elementary school students develop scripts in JavaScript and Google Scratch to teach them the fundamentals of programming."

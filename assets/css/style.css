@@ -211,6 +211,10 @@ pre {
   word-break: break-word;
 }
 
+#profile-pic {
+  border-radius: 50%;
+}
+
 @media (max-width: 900px) {
   .carousel-caption {
     top: 50%;
