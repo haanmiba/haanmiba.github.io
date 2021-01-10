@@ -1,8 +1,9 @@
 currently:
   - action: "empowering educators and developing digital experiences as a"
     subject: "Software Engineer"
-sneaker: "Pums Sueded"
-learning: "Integration Testing"
+dog: "Samoyed"
+sneaker: "Vans Old Skool"
+learning: "Redux"
 reading:
-  book: "Shoe Dog"
-  author: "Phil Knight"
+  book: "Microserfs"
+  author: "Douglas Coupland"
