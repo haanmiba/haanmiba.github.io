@@ -1,69 +1,69 @@
 languages:
-  - language: 'Python'
-    img_src: 'Python icon.png'
+  - language: "TypeScript"
+    img_src: "typescript-icon.png"
 
-  - language: 'TypeScript'
-    img_src: 'typescript-icon.png'
+  - language: "Python"
+    img_src: "Python icon.png"
 
-  - language: 'Java'
-    img_src: 'Java icon.png'
+  - language: "Java"
+    img_src: "Java icon.png"
 
-  - language: 'JavaScript'
-    img_src: 'JavaScript icon.png'
+  - language: "JavaScript"
+    img_src: "JavaScript icon.png"
 
-  - language: 'HTML5'
-    img_src: 'HTML5 icon.png'
+  - language: "HTML5"
+    img_src: "HTML5 icon.png"
 
-  - language: 'C#'
-    img_src: 'C-sharp icon.png'
+  - language: "C#"
+    img_src: "C-sharp icon.png"
 
 softwares:
-  - software: 'Visual Studio Code'
-    img_src: 'visual-studio-code-icon.png'
+  - software: "Visual Studio Code"
+    img_src: "visual-studio-code-icon.png"
 
-  - software: 'PyCharm'
-    img_src: 'PyCharm icon.png'
+  - software: "PyCharm"
+    img_src: "PyCharm icon.png"
 
-  - software: 'Eclipse'
-    img_src: 'Eclipse icon.jpeg'
+  - software: "Eclipse"
+    img_src: "Eclipse icon.jpeg"
 
-  - software: 'IntelliJ IDEA'
-    img_src: 'intellij-icon.png'
+  - software: "IntelliJ IDEA"
+    img_src: "intellij-icon.png"
 
-  - software: 'Git'
-    img_src: 'git-icon.png'
+  - software: "Git"
+    img_src: "git-icon.png"
 
-  - software: 'GraphQL'
-    img_src: 'graphql-icon.png'
+  - software: "GraphQL"
+    img_src: "graphql-icon.png"
 
-  - software: 'MySQL'
-    img_src: 'mysql-icon.png'
+  - software: "MySQL"
+    img_src: "mysql-icon.png"
 
-  - software: 'SourceTree'
-    img_src: 'sourcetree-icon.png'
+  - software: "SourceTree"
+    img_src: "sourcetree-icon.png"
 
 frameworks:
-  - framework: 'Bootstrap'
-    img_src: 'Bootstrap icon.png'
-  
-  - framework: 'Selenium'
-    img_src: 'Selenium icon.png'
+  - framework: "Bootstrap"
+    img_src: "Bootstrap icon.png"
 
-  - framework: 'Flask'
-    img_src: 'Flask icon.png'
+  - framework: "Selenium"
+    img_src: "Selenium icon.png"
 
-  - framework: 'Materialize'
-    img_src: 'Materialize icon.png'
+  - framework: "Flask"
+    img_src: "Flask icon.png"
+
+  - framework: "Materialize"
+    img_src: "Materialize icon.png"
 
 javascript:
-  - js_skill: 'React'
-    img_src: 'React icon.png'
+  - js_skill: "React"
+    img_src: "React icon.png"
 
-  - js_skill: 'Node.js'
-    img_src: 'Node JS icon.png'
+  - js_skill: "Node.js"
+    img_src: "Node JS icon.png"
 
-  - js_skill: 'TypeORM'
-    img_src: 'typeorm-icon.png'
-    
-  - js_skill: 'TypeGraphQL'
-    img_src: 'typegraphql-icon.png'
+  - js_skill: "TypeORM"
+    img_src: "typeorm-icon.png"
+
+  - js_skill: "TypeGraphQL"
+    img_src: "typegraphql-icon.png"
