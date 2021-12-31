@@ -59,4 +59,11 @@ preview: "Cheers!"
 <h3>YOGURT SOJU COCKTAIL</h3>
 <p>yakult, yogurt soju, lemon-lime soda</p>
 
+<br />
+
+<h3>LYCHEE SOJU MOCKTAIL</h3>
+<p>yakult, lychee soju, lemon-lime soda</p>
+
+<br />
+
 </div>
