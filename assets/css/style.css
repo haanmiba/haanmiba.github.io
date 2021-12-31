@@ -246,6 +246,13 @@ pre {
   color: #fff;
 }
 
+.text-center p,
+.text-center h1,
+.text-center h2,
+.text-center h3 {
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .carousel-caption {
     top: 75%;
