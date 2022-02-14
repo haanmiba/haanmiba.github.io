@@ -1,8 +1,10 @@
 - employer: "Teachers Pay Teachers"
   city: "New York, NY"
   positions:
-    - position: "Software Engineer"
-      dates: "June 2020 – Present"
+    - position: "Software Engineer L2"
+      dates: "March 2021 – February 2022"
+    - position: "Software Engineer L1"
+      dates: "June 2020 – March 2021"
       tasks:
         - "Develops on a full-stack microservice architecture with React, TypeScript, and GraphQL. Actively contributes to a web app designed to help teachers and students with remote distance learning through online assignments."
         - "Tools/Utilities: TypeScript, Node.js, Express, GraphQL, AWS, Serverless, React, Fabric.js"
